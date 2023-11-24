@@ -8,13 +8,22 @@
   },
   "devDependencies": {
     "@aurelia/webpack-loader": "latest",
+    "@storybook/addon-essentials": "^7.5.3",
+    "@storybook/addon-interactions": "^7.5.3",
+    "@storybook/addon-links": "^7.5.3",
+    "@storybook/aurelia2": "workspace:*",
+    "@storybook/aurelia2-webpack5": "workspace:*",
+    "@storybook/blocks": "^7.5.3",
     "@types/node": "^18.11.18",
     "autoprefixer": "^10.4.14",
     "css-loader": "^6.8.1",
     "html-webpack-plugin": "^5.5.3",
     "postcss": "^8.4.24",
     "postcss-loader": "^7.3.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "rimraf": "^5.0.1",
+    "storybook": "^7.5.3",
     "style-loader": "^3.3.3",
     "ts-loader": "^9.4.4",
     "tslib": "^2.6.0",
@@ -25,6 +34,8 @@
   },
   "scripts": {
     "start": "webpack serve",
-    "build": "rimraf dist && webpack --env production"
+    "build": "rimraf dist && webpack --env production",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   }
 }
