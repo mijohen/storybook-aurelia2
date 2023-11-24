@@ -16,12 +16,12 @@
     "@storybook/core-webpack": "^7.0.0"
   },
   "devDependencies": {
-    "aurelia": "^2.0.0-beta.8",
     "@aurelia/webpack-loader": "^2.0.0-beta.8",
+    "aurelia": "^2.0.0-beta.8",
     "typescript": "~4.9.3"
   },
   "peerDependencies": {
-    "aurelia": "^2.0.0-beta.8",
-    "@aurelia/webpack-loader": "^2.0.0-beta.8"
+    "@aurelia/webpack-loader": "^2.0.0-beta.8",
+    "aurelia": "^2.0.0-beta.8"
   }
 }

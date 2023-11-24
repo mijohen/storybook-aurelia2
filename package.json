@@ -7,5 +7,6 @@
     "workspaces/preset-aurelia2-webpack",
     "workspaces/storybook-aurelia2-renderer"
   ],
-  "packageManager": "yarn@4.0.0"
+  "packageManager": "yarn@4.0.0",
+  "version": "0.0.0"
 }
