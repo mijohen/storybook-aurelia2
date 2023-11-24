@@ -1,29 +1,39 @@
-import { Label } from './label';
+import {Label, LabelSize} from './label';
+import {Meta, StoryObj} from "@storybook/aurelia2";
 
-export default {
-    title: 'Example/Label',
+const meta: Meta<Label> = {
+    title: 'Form/Label',
     component: Label,
+    subcomponents: {},
     tags: ['autodocs'],
     argTypes: {
         text: { control: 'text' },
+        size: { control: 'text' }
     },
-};
+    render: () => ({
+        template: '<label text.bind size.bind ></label>',
+    })
+}
 
-export const Primary = {
+export default meta;
+
+type Story = StoryObj<Label>;
+
+export const Primary: Story = {
     args: {
         text: 'Primary',
-    },
+    }
 };
 
-export const Secondary = {
+export const Secondary: Story = {
     args: {
         text: 'Secondary',
-    },
+    }
 };
 
-export const Large = {
+export const Large: Story = {
     args: {
-        size: 'large',
+        size: LabelSize.large,
         text: 'Large',
-    },
+    }
 };

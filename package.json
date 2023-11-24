@@ -7,6 +7,9 @@
     "workspaces/preset-aurelia2-webpack",
     "workspaces/storybook-aurelia2-renderer"
   ],
+  "scripts": {
+    "prep": "yarn workspaces foreach --all --exclude aurelia-app run prep"
+  },
   "packageManager": "yarn@4.0.0",
   "version": "0.0.0"
 }

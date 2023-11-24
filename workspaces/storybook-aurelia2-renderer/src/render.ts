@@ -1,6 +1,7 @@
 import type { RenderContext, ArgsStoryFn } from '@storybook/types';
 
-import type {AureliaRenderer, StoryFnAureliaReturnType} from './types';
+import type {AureliaRenderer} from './types';
+import Aurelia from "aurelia";
 
 export const render: ArgsStoryFn<AureliaRenderer> = (args, context) => {
     const { id, component: Component } = context;
@@ -13,20 +14,39 @@ export const render: ArgsStoryFn<AureliaRenderer> = (args, context) => {
     return { Component, props: args };
 };
 
-function aureliaRender(story: StoryFnAureliaReturnType | null, canvasElement: Element): void {
-    // render with aurelia
+function aureliaRender(
+    context: RenderContext<AureliaRenderer> | null,
+    canvasElement: AureliaRenderer['canvasElement']
+): void {
+    if (context === null) {
+        console.log('Context was NULL!');
+        return;
+    }
+
+    const result = context.storyFn();
+
+    canvasElement.innerHTML += result.template;
+
+    const aurelia = new Aurelia();
+
+    aurelia
+        .register(context.storyContext.component)
+        .enhance({
+            host: canvasElement as HTMLElement,
+            component: {...context.storyContext.args},
+        });
 }
 
 export function renderToCanvas(
-    { storyFn, title, name, showMain, showError, forceRemount }: RenderContext<AureliaRenderer>,
+    context: RenderContext<AureliaRenderer>,
     canvasElement: AureliaRenderer['canvasElement']
 ) {
-    if (forceRemount) {
+    if (context.forceRemount) {
         aureliaRender(null, canvasElement);
     }
 
-    showMain();
+    context.showMain();
 
-    // aureliaRender(..., canvasElement);
+    aureliaRender(context, canvasElement);
 }
 
