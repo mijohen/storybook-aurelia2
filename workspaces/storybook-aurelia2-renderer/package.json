@@ -1,0 +1,31 @@
+{
+  "name": "@storybook/aurelia2",
+  "version": "7.5.0",
+  "description": "Storybook Aurelia 2 renderer",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**/*",
+    "templates/**/*",
+    "template/cli/**/*",
+    "README.md",
+    "*.js",
+    "*.d.ts",
+    "!src/**/*"
+  ],
+  "dependencies": {
+    "@storybook/core-client": "^7.0.0",
+    "@storybook/global": "^5.0.0",
+    "@storybook/preview-api": "^7.0.0",
+    "@storybook/types": "^7.0.0"
+  },
+  "devDependencies": {
+    "aurelia": "^2.0.0-beta.8",
+    "typescript": "~4.9.3"
+  },
+  "peerDependencies": {
+    "aurelia": "^2.0.0-beta.8"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "aurelia-app",
+  "description": "An Aurelia 2 client application.",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "aurelia": "latest"
+  },
+  "devDependencies": {
+    "rimraf": "^5.0.1",
+    "webpack": "^5.88.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1",
+    "html-webpack-plugin": "^5.5.3",
+    "style-loader": "^3.3.3",
+    "css-loader": "^6.8.1",
+    "@aurelia/webpack-loader": "latest",
+    "ts-loader": "^9.4.4",
+    "postcss-loader": "^7.3.3",
+    "postcss": "^8.4.24",
+    "autoprefixer": "^10.4.14",
+    "@types/node": "^18.11.18",
+    "typescript": "^5.1.6",
+    "tslib": "^2.6.0"
+  },
+  "scripts": {
+    "start": "webpack serve",
+    "build": "rimraf dist && webpack --env production"
+  }
+}

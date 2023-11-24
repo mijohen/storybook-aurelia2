@@ -1,0 +1,11 @@
+{
+  "license": "UNLICENSED",
+  "private": true,
+  "workspaces": [
+    "workspaces/aurelia-app",
+    "workspaces/aurelia2-webpack5",
+    "workspaces/preset-aurelia2-webpack",
+    "workspaces/storybook-aurelia2-renderer"
+  ],
+  "packageManager": "yarn@4.0.0"
+}

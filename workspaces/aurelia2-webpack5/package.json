@@ -1,0 +1,31 @@
+{
+  "name": "@storybook/aurelia2-webpack5",
+  "version": "1.0.0",
+  "description": "Storybook for Aurelia 2: Develop Aurelia 2 components in isolation with hot reloading.",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**/*",
+    "README.md",
+    "*.js",
+    "*.d.ts",
+    "!src/**/*"
+  ],
+  "dependencies": {
+    "@storybook/builder-webpack5": "^7.0.0",
+    "@storybook/core-common": "^7.0.0",
+    "@storybook/preset-aurelia2-webpack": "^7.0.0",
+    "@storybook/aurelia2": "^7.0.0"
+  },
+  "devDependencies": {
+    "aurelia": "^2.0.0-beta.8",
+    "@aurelia/webpack-loader": "^2.0.0-beta.8",
+    "typescript": "~4.9.3"
+  },
+  "peerDependencies": {
+    "aurelia": "^2.0.0-beta.8",
+    "@aurelia/webpack-loader": "^2.0.0-beta.8"
+  }
+}
