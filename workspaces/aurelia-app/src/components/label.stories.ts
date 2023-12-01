@@ -4,7 +4,6 @@ import {Meta, StoryObj} from "@storybook/aurelia2";
 const meta: Meta<Label> = {
     title: 'Form/Label',
     component: Label,
-    subcomponents: {},
     tags: ['autodocs'],
     argTypes: {
         text: { control: 'text' },
