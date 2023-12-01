@@ -11,7 +11,7 @@ export const render: ArgsStoryFn<AureliaRenderer> = (args, context) => {
         );
     }
 
-    return { Component, props: args };
+    return { Component, props: args, template: '' };
 };
 
 function aureliaRender(
@@ -25,7 +25,7 @@ function aureliaRender(
 
     const result = context.storyFn();
 
-    canvasElement.innerHTML += result.template;
+    canvasElement.innerHTML = result.template;
 
     const aurelia = new Aurelia();
 
@@ -49,4 +49,3 @@ export function renderToCanvas(
 
     aureliaRender(context, canvasElement);
 }
-
