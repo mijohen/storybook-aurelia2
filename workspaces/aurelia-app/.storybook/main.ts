@@ -18,7 +18,7 @@ const config: StorybookConfig = {
   ],
   framework: {
     name: getAbsolutePath("@storybook/aurelia2-webpack5"),
-    options: {},
+    options: { builder: { useSWC: true } },
   },
   docs: {
     autodocs: "tag",
