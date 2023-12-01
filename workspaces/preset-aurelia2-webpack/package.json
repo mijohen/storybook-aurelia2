@@ -1,6 +1,6 @@
 {
   "name": "@storybook/preset-aurelia2-webpack",
-  "version": "7.5.0",
+  "version": "7.6.0",
   "description": "Storybook Aurelia 2 preset",
   "license": "MIT",
   "main": "dist/index.js",
@@ -13,7 +13,7 @@
     "!src/**/*"
   ],
   "dependencies": {
-    "@storybook/core-webpack": "^7.0.0"
+    "@storybook/core-webpack": "^7.6.0"
   },
   "devDependencies": {
     "@aurelia/webpack-loader": "^2.0.0-beta.8",
@@ -49,6 +49,6 @@
     "./package.json": "./package.json"
   },
   "engines": {
-    "node": ">=16.0.0"
+    "node": ">=18.0.0"
   }
 }
