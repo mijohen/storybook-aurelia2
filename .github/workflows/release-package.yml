@@ -4,6 +4,8 @@ on: pull_request
 
 jobs:
   publish:
+    env:
+      NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
     runs-on: ubuntu-latest
     steps:
         - uses: actions/checkout@v4
@@ -14,5 +16,3 @@ jobs:
         - run: yarn run setup
         - run: yarn run prep
         - run: yarn run publish
-          env:
-            NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
