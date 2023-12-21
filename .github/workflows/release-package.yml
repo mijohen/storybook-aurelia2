@@ -7,6 +7,9 @@ jobs:
     env:
       NPM_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
     runs-on: ubuntu-latest
+    permissions:
+      packages: write
+      contents: read
     steps:
         - uses: actions/checkout@v4
         - uses: actions/setup-node@v3
