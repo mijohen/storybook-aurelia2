@@ -1,5 +1,5 @@
 import {Label, LabelSize} from './label';
-import {Meta, StoryObj} from "@storybook/aurelia2";
+import {Meta, StoryObj} from "@mijohen/storybook-aurelia2";
 
 const meta: Meta<Label> = {
     title: 'Form/Label',

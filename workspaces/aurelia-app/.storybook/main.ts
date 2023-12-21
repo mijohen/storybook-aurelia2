@@ -1,4 +1,4 @@
-import type { StorybookConfig } from "@storybook/aurelia2-webpack5";
+import type { StorybookConfig } from "@mijohen/storybook-aurelia2-webpack5";
 
 import { join, dirname } from "path";
 
@@ -17,14 +17,11 @@ const config: StorybookConfig = {
     getAbsolutePath("@storybook/addon-interactions"),
   ],
   framework: {
-    name: getAbsolutePath("@storybook/aurelia2-webpack5"),
+    name: getAbsolutePath("@mijohen/storybook-aurelia2-webpack5"),
     options: { builder: { useSWC: true } },
   },
   docs: {
     autodocs: "tag",
-  },
-  typescript: {
-    check: true,
-  },
+  }
 };
 export default config;
