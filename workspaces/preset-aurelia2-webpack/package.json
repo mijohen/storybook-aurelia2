@@ -1,6 +1,6 @@
 {
-  "name": "@storybook/preset-aurelia2-webpack",
-  "version": "7.6.0",
+  "name": "@mijohen/storybook-preset-aurelia2-webpack",
+  "version": "0.0.1",
   "description": "Storybook Aurelia 2 preset",
   "license": "MIT",
   "main": "dist/index.js",
@@ -12,6 +12,10 @@
     "*.d.ts",
     "!src/**/*"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mijohen/storybook-aurelia2"
+  },
   "dependencies": {
     "@storybook/core-webpack": "^7.6.0"
   },
@@ -32,21 +36,6 @@
       "./src/index.ts"
     ],
     "platform": "node"
-  },
-  "exports": {
-    ".": {
-      "types": "./dist/index.d.ts",
-      "node": "./dist/index.js",
-      "require": "./dist/index.js",
-      "import": "./dist/index.mjs"
-    },
-    "./preset": {
-      "types": "./dist/index.d.ts",
-      "node": "./dist/index.js",
-      "require": "./dist/index.js",
-      "import": "./dist/index.mjs"
-    },
-    "./package.json": "./package.json"
   },
   "engines": {
     "node": ">=18.0.0"

@@ -1,14 +1,14 @@
 import type {
     StorybookConfig as StorybookConfigBase,
     TypescriptOptions as TypescriptOptionsReact,
-} from '@storybook/preset-aurelia2-webpack';
+} from '@mijohen/storybook-preset-aurelia2-webpack';
 import type {
     StorybookConfigWebpack,
     BuilderOptions,
     TypescriptOptions as TypescriptOptionsBuilder,
 } from '@storybook/builder-webpack5';
 
-type FrameworkName = '@storybook/aurelia2-webpack5';
+type FrameworkName = '@mijohen/storybook-aurelia2-webpack5';
 type BuilderName = '@storybook/builder-webpack5';
 
 export type FrameworkOptions = {

@@ -1,0 +1,22 @@
+name: Publish Packages
+on:
+  release:
+    types: [published]
+
+jobs:
+  publish:
+    env:
+      NPM_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+    runs-on: ubuntu-latest
+    permissions:
+      packages: write
+      contents: read
+    steps:
+        - uses: actions/checkout@v4
+        - uses: actions/setup-node@v4
+          with:
+            node-version-file: .nvmrc
+        - run: corepack enable
+        - run: yarn run setup
+        - run: yarn run prep
+        - run: yarn run publish

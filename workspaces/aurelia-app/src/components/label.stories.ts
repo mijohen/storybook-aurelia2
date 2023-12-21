@@ -1,5 +1,6 @@
 import {Label, LabelSize} from './label';
-import {Meta, StoryObj} from "@storybook/aurelia2";
+import {Meta, StoryObj} from "@mijohen/storybook-aurelia2";
+import {InnerLabel} from "./inner-label";
 
 const meta: Meta<Label> = {
     title: 'Form/Label',
@@ -11,6 +12,7 @@ const meta: Meta<Label> = {
     },
     render: () => ({
         template: '<label text.bind size.bind ></label>',
+        components: [InnerLabel]
     })
 }
 

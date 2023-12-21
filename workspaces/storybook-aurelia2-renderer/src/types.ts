@@ -1,9 +1,9 @@
 import type {WebRenderer} from '@storybook/types';
-import {Constructable} from "@aurelia/kernel/src/interfaces";
+import type {Constructable} from "aurelia";
 
-export type { RenderContext } from '@storybook/types';
+export type {RenderContext} from '@storybook/types';
 
-export type StoryFnAureliaReturnType = { template: string };
+export type StoryFnAureliaReturnType = { template: string, components?: unknown[] };
 
 export interface ShowErrorArgs {
     title: string;

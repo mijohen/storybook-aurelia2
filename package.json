@@ -1,5 +1,5 @@
 {
-  "license": "UNLICENSED",
+  "license": "MIT",
   "private": true,
   "workspaces": [
     "workspaces/aurelia-app",
@@ -8,8 +8,10 @@
     "workspaces/storybook-aurelia2-renderer"
   ],
   "scripts": {
-    "prep": "yarn workspaces foreach --all --exclude aurelia-app run prep"
+    "setup": "yarn install --immutable && cd scripts && yarn install --immutable",
+    "prep": "yarn workspaces foreach -At --exclude aurelia-app run prep -- --optimized --reset",
+    "publish": "yarn workspaces foreach --all --no-private --exclude aurelia-app npm publish"
   },
-  "packageManager": "yarn@4.0.0",
-  "version": "0.0.0"
+  "packageManager": "yarn@4.1.0",
+  "version": "1.0.0"
 }

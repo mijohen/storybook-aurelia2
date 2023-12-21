@@ -1,4 +1,4 @@
-import type { Preview } from "@storybook/aurelia2";
+import type { Preview } from "@mijohen/storybook-aurelia2";
 
 const preview: Preview = {
   parameters: {
