@@ -32,19 +32,6 @@
     "@aurelia/webpack-loader": "^2.0.0-beta.8",
     "aurelia": "^2.0.0-beta.8"
   },
-  "exports": {
-    ".": {
-      "types": "./dist/index.d.ts",
-      "node": "./dist/index.js",
-      "require": "./dist/index.js",
-      "import": "./dist/index.mjs"
-    },
-    "./preset": {
-      "types": "./dist/preset.d.ts",
-      "require": "./dist/preset.js"
-    },
-    "./package.json": "./package.json"
-  },
   "bundler": {
     "entries": [
       "./src/index.ts",

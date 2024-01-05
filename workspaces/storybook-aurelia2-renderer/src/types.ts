@@ -1,5 +1,4 @@
 import type {WebRenderer} from '@storybook/types';
-import {Constructable} from "@aurelia/kernel/src/interfaces";
 
 export type { RenderContext } from '@storybook/types';
 
@@ -11,6 +10,6 @@ export interface ShowErrorArgs {
 }
 
 export interface AureliaRenderer extends WebRenderer {
-    component: Constructable;
+    component: any;
     storyResult: StoryFnAureliaReturnType;
 }

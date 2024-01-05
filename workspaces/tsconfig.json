@@ -17,10 +17,9 @@
     "strictBindCallApply": true,
     "lib": ["dom", "dom.iterable", "esnext"],
     "noUnusedLocals": true,
-    "types": ["jest"],
     "strict": true
   },
-  "exclude": ["dist", "**/dist", "node_modules", "**/node_modules", "**/setup-jest.ts"],
+  "exclude": ["dist", "**/dist", "node_modules", "**/node_modules"],
   "ts-node": {
     "transpileOnly": true,
     "files": true,

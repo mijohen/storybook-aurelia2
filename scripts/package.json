@@ -4,8 +4,10 @@
   "private": true,
   "packageManager": "yarn@4.0.0",
   "version": "1.0.0",
+  "type": "module",
   "devDependencies": {
     "chalk": "^4.1.0",
+    "esbuild": "^0.18.0",
     "esbuild-plugin-alias": "^0.2.1",
     "esbuild-register": "^3.5.0",
     "execa": "^6.1.0",

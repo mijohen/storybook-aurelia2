@@ -9,7 +9,7 @@
   ],
   "scripts": {
     "setup": "yarn install --immutable && cd scripts && yarn install --immutable",
-    "prep": "yarn workspaces foreach --all --exclude aurelia-app run prep",
+    "prep": "yarn workspaces foreach --all --exclude aurelia-app run prep -- --optimized --reset",
     "publish": "yarn workspaces foreach --all --exclude aurelia-app npm publish"
   },
   "packageManager": "yarn@4.0.0",
