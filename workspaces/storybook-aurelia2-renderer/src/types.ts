@@ -3,7 +3,7 @@ import type {Constructable} from "aurelia";
 
 export type {RenderContext} from '@storybook/types';
 
-export type StoryFnAureliaReturnType = { template: string, components?: Constructable[] };
+export type StoryFnAureliaReturnType = { template: string, components?: unknown[] };
 
 export interface ShowErrorArgs {
     title: string;
