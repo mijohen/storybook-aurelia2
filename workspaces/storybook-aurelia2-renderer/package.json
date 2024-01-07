@@ -1,6 +1,6 @@
 {
-  "name": "@storybook/aurelia2",
-  "version": "7.6.0",
+  "name": "@mijohen/storybook-aurelia2",
+  "version": "0.0.1",
   "description": "Storybook Aurelia 2 renderer",
   "license": "MIT",
   "main": "dist/index.js",
@@ -15,6 +15,10 @@
     "*.d.ts",
     "!src/**/*"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mijohen/storybook-aurelia2"
+  },
   "dependencies": {
     "@storybook/core-client": "^7.6.0",
     "@storybook/global": "^5.0.0",
@@ -31,18 +35,6 @@
   },
   "scripts": {
     "prep": "node --loader ../../scripts/node_modules/esbuild-register/loader.js -r ../../scripts/node_modules/esbuild-register/register.js ../../scripts/prepare/bundle.ts"
-  },
-  "exports": {
-    ".": {
-      "types": "./dist/index.d.ts",
-      "node": "./dist/index.js",
-      "require": "./dist/index.js",
-      "import": "./dist/index.mjs"
-    },
-    "./preset": "./preset.js",
-    "./dist/entry-preview.mjs": "./dist/entry-preview.mjs",
-    "./dist/entry-preview-docs.mjs": "./dist/entry-preview-docs.mjs",
-    "./package.json": "./package.json"
   },
   "bundler": {
     "entries": [

@@ -1,15 +1,15 @@
 import { dirname, join } from 'path';
-import type { PresetProperty } from '@storybook/types';
+import type { PresetProperty, CoreConfig, StorybookConfigOptions } from '@storybook/types';
 import type { StorybookConfig } from './types';
 
 const getAbsolutePath = <I extends string>(input: I): I =>
     dirname(require.resolve(join(input, 'package.json'))) as any;
 
 export const addons: PresetProperty<'addons', StorybookConfig> = [
-    getAbsolutePath('@storybook/preset-aurelia2-webpack'),
+    getAbsolutePath('@mijohen/storybook-preset-aurelia2-webpack'),
 ];
 
-export const core: PresetProperty<'core', StorybookConfig> = async (config, options) => {
+export const core: PresetProperty<'core', StorybookConfig> = async (config: CoreConfig | undefined, options: StorybookConfigOptions) => {
     const framework = await options.presets.apply<StorybookConfig['framework']>('framework');
 
     return {
@@ -18,6 +18,6 @@ export const core: PresetProperty<'core', StorybookConfig> = async (config, opti
             name: getAbsolutePath('@storybook/builder-webpack5'),
             options: typeof framework === 'string' ? {} : framework.options.builder || {},
         },
-        renderer: getAbsolutePath('@storybook/aurelia2'),
+        renderer: getAbsolutePath('@mijohen/storybook-aurelia2'),
     };
 };

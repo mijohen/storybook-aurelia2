@@ -13,7 +13,7 @@
     "isolatedModules": true,
     "strictBindCallApply": true,
     "lib": ["dom", "es2023"],
-    "types": ["node", "jest"],
+    "types": ["node"],
     "strict": true,
     "strictNullChecks": false,
     "forceConsistentCasingInFileNames": true,
