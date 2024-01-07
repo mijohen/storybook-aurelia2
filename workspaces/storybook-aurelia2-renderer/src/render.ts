@@ -31,6 +31,7 @@ function aureliaRender(
 
     aurelia
         .register(context.storyContext.component)
+        .register(...(result.components ?? []))
         .enhance({
             host: canvasElement as HTMLElement,
             component: {...context.storyContext.args},

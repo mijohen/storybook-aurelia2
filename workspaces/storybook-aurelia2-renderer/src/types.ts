@@ -1,8 +1,9 @@
 import type {WebRenderer} from '@storybook/types';
+import type {Constructable} from "aurelia";
 
-export type { RenderContext } from '@storybook/types';
+export type {RenderContext} from '@storybook/types';
 
-export type StoryFnAureliaReturnType = { template: string };
+export type StoryFnAureliaReturnType = { template: string, components?: Constructable[] };
 
 export interface ShowErrorArgs {
     title: string;
@@ -10,6 +11,6 @@ export interface ShowErrorArgs {
 }
 
 export interface AureliaRenderer extends WebRenderer {
-    component: any;
+    component: Constructable;
     storyResult: StoryFnAureliaReturnType;
 }
