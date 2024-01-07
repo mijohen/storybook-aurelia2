@@ -1,6 +1,6 @@
 {
   "name": "@mijohen/storybook-aurelia2",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Storybook Aurelia 2 renderer",
   "license": "MIT",
   "main": "dist/index.js",

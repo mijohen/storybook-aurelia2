@@ -1,6 +1,6 @@
 {
   "name": "@mijohen/storybook-aurelia2-webpack5",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Storybook for Aurelia 2: Develop Aurelia 2 components in isolation with hot reloading.",
   "license": "MIT",
   "main": "dist/index.js",
