@@ -6,3 +6,5 @@
 # yarn
 yarn-error.log
 .yarn/
+
+.env.yarn
