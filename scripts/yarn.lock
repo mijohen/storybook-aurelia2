@@ -1828,7 +1828,7 @@ __metadata:
     slash: "npm:^3.0.0"
     ts-dedent: "npm:^2.0.0"
     tsup: "npm:^6.7.0"
-    type-fest: "npm:~2.19"
+    type-fest: "npm:~4.12"
     typescript: "npm:5.2.2"
   languageName: unknown
   linkType: soft
@@ -2117,10 +2117,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"type-fest@npm:~2.19":
-  version: 2.19.0
-  resolution: "type-fest@npm:2.19.0"
-  checksum: 10/7bf9e8fdf34f92c8bb364c0af14ca875fac7e0183f2985498b77be129dc1b3b1ad0a6b3281580f19e48c6105c037fb966ad9934520c69c6434d17fd0af4eed78
+"type-fest@npm:~4.12":
+  version: 4.12.0
+  resolution: "type-fest@npm:4.12.0"
+  checksum: 10/5869216e840c962942672623e0447ed342f1eb6dbed1874a09ba1944b268c793bd8b5607c9f96ee01363e859a93f32ad06ab71a7aab29ff896bf18d66602a37b
   languageName: node
   linkType: hard
 
