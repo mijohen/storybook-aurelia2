@@ -15,7 +15,7 @@
     "@aurelia/webpack-loader": "latest",
     "@mijohen/storybook-aurelia2": "workspace:*",
     "@mijohen/storybook-aurelia2-webpack5": "workspace:*",
-    "@storybook/addon-essentials": "^7.6",
+    "@storybook/addon-essentials": "^8.0",
     "@storybook/addon-interactions": "^7.6",
     "@storybook/addon-links": "^7.6",
     "@storybook/blocks": "^7.6",
