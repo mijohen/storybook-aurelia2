@@ -21,7 +21,7 @@
     "@mijohen/storybook-aurelia2": "workspace:*",
     "@mijohen/storybook-preset-aurelia2-webpack": "workspace:*",
     "@storybook/builder-webpack5": "^7.6.0",
-    "@storybook/core-common": "^7.6.0"
+    "@storybook/core-common": "^8.0.4"
   },
   "devDependencies": {
     "@aurelia/webpack-loader": "^2.0.0-beta.8",
