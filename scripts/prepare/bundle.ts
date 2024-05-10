@@ -126,7 +126,7 @@ const run = async ({ cwd, flags }: { cwd: string; flags: string[] }) => {
                 outDir,
                 sourcemap: false,
                 format: ['cjs'],
-                target: 'node16',
+                target: 'node18',
                 ...(dtsBuild === 'cjs' ? dtsConfig : {}),
                 platform: 'node',
                 clean: false,
@@ -156,7 +156,9 @@ const run = async ({ cwd, flags }: { cwd: string; flags: string[] }) => {
         );
     }
 
-    console.log('done');
+    if (process.env.CI !== 'true') {
+        console.log('done');
+    }
 };
 
 /* UTILS */

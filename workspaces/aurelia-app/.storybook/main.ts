@@ -17,8 +17,7 @@ const config: StorybookConfig = {
     getAbsolutePath("@storybook/addon-interactions"),
   ],
   framework: {
-    name: getAbsolutePath("@mijohen/storybook-aurelia2-webpack5"),
-    options: { builder: { useSWC: true } },
+    name: getAbsolutePath("@mijohen/storybook-aurelia2-webpack5")
   },
   docs: {
     autodocs: "tag",

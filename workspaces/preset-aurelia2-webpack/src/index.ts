@@ -2,7 +2,7 @@ import type { StorybookConfig } from './types';
 
 export * from './types';
 
-export const webpack: StorybookConfig['webpack'] = (config) => {
+export const webpackFinal: StorybookConfig['webpackFinal'] = (config) => {
     const rules = [
         ...(config.module?.rules || []),
         {

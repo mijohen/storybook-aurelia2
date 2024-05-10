@@ -1,7 +1,10 @@
-import type { StorybookConfig } from '@storybook/types';
+import type { PresetProperty } from '@storybook/types';
 import { join } from 'path';
 
-export const previewAnnotations: StorybookConfig['previewAnnotations'] = async (input, options) => {
+export const previewAnnotations: PresetProperty<'previewAnnotations'> = async (
+    input = [],
+    options
+) => {
     const docsEnabled = Object.keys(await options.presets.apply('docs', {}, options)).length > 0;
     const result: string[] = [];
 
