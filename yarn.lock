@@ -15,100 +15,100 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@aurelia/fetch-client@npm:2.0.0-beta.8":
-  version: 2.0.0-beta.8
-  resolution: "@aurelia/fetch-client@npm:2.0.0-beta.8"
+"@aurelia/fetch-client@npm:2.0.0-beta.12":
+  version: 2.0.0-beta.12
+  resolution: "@aurelia/fetch-client@npm:2.0.0-beta.12"
   dependencies:
-    "@aurelia/kernel": "npm:2.0.0-beta.8"
-    "@aurelia/metadata": "npm:2.0.0-beta.8"
-  checksum: 10/4824b05d99bacd1debf2f4e928a4c038cc920473f808159dbabb7a616c401e84a76941288efe59b810c2e05d3265e6e8e44fff8bffd20c67ad494262451e2162
+    "@aurelia/kernel": "npm:2.0.0-beta.12"
+    "@aurelia/metadata": "npm:2.0.0-beta.12"
+  checksum: 10/22e9a74e4bb7690e3bf09080df1a0265994862ec895c262ed9e64f89de196c41115aad836a05e8d0ec6cd587aad9144e2efb44162f9ccacbe60fb541eea5cec4
   languageName: node
   linkType: hard
 
-"@aurelia/kernel@npm:2.0.0-beta.8":
-  version: 2.0.0-beta.8
-  resolution: "@aurelia/kernel@npm:2.0.0-beta.8"
+"@aurelia/kernel@npm:2.0.0-beta.12":
+  version: 2.0.0-beta.12
+  resolution: "@aurelia/kernel@npm:2.0.0-beta.12"
   dependencies:
-    "@aurelia/metadata": "npm:2.0.0-beta.8"
-    "@aurelia/platform": "npm:2.0.0-beta.8"
-  checksum: 10/f474d5f18a3e9c3c3da3754d864af9eadab33f713ad027be14e5ee5e77eb9963b013ff8b70c8db0fcb4a9976e1296783119a92d499fbce9300edd5e3d4cdc632
+    "@aurelia/metadata": "npm:2.0.0-beta.12"
+    "@aurelia/platform": "npm:2.0.0-beta.12"
+  checksum: 10/793043e71a14e11c49bda100dee96277b1f43777afdc0a3cc7b33f4f743b732454531b508d18190a856ebe27d010101b219b72186feba5f908cf14f9244e2c10
   languageName: node
   linkType: hard
 
-"@aurelia/metadata@npm:2.0.0-beta.8":
-  version: 2.0.0-beta.8
-  resolution: "@aurelia/metadata@npm:2.0.0-beta.8"
-  checksum: 10/61c786be8b556e6f289d285a35dca070642013ef27148d1a422c816af81e40ffa2d57198021e5d6bac63998777456513e6494d169b66898ee17bf4ded1456ab6
+"@aurelia/metadata@npm:2.0.0-beta.12":
+  version: 2.0.0-beta.12
+  resolution: "@aurelia/metadata@npm:2.0.0-beta.12"
+  checksum: 10/3a4becdc5c134b674f1de826ada8be3c6b4127612a016a020205fe2bba372bebcd543fdd517fa0f6a8d4a65cc438a7edc04c6e0938d8bc09b5d65ff76d83d5f5
   languageName: node
   linkType: hard
 
-"@aurelia/platform-browser@npm:2.0.0-beta.8":
-  version: 2.0.0-beta.8
-  resolution: "@aurelia/platform-browser@npm:2.0.0-beta.8"
+"@aurelia/platform-browser@npm:2.0.0-beta.12":
+  version: 2.0.0-beta.12
+  resolution: "@aurelia/platform-browser@npm:2.0.0-beta.12"
   dependencies:
-    "@aurelia/platform": "npm:2.0.0-beta.8"
-  checksum: 10/f9d057b7558ce3835a1ed8f8c95b1086f7661fbb0716b9843a2cd1191730a32e9a9fc44f8a18638b3c6298a0507b878bf0dd6b7438afe3fd8c587765f80f19b5
+    "@aurelia/platform": "npm:2.0.0-beta.12"
+  checksum: 10/98ce2eaeeefbcffaaaf3aa935e9813d2409e48b3ef51301304fbece0498ac87513484e0a788b0544540c025dc4629f83dc8c6c69349cb998c1def1b4c7f7ca0a
   languageName: node
   linkType: hard
 
-"@aurelia/platform@npm:2.0.0-beta.8":
-  version: 2.0.0-beta.8
-  resolution: "@aurelia/platform@npm:2.0.0-beta.8"
-  checksum: 10/333cde3005d551c3eb405d2b71f10d6a498ec167c86c29c68ce109185a74eae1e9c50778590e6a1b9aa57800b7048c602775e590dda2f296ef921b22612241b2
+"@aurelia/platform@npm:2.0.0-beta.12":
+  version: 2.0.0-beta.12
+  resolution: "@aurelia/platform@npm:2.0.0-beta.12"
+  checksum: 10/3e848416fd175e5b68a936d9d7427a57c09f730756d5fb4a66f40f4ad5290097c6e666011906ef8bb3aaceed32e66b2e196e97630dd7efe8536bac5a9c33a2c2
   languageName: node
   linkType: hard
 
-"@aurelia/plugin-conventions@npm:2.0.0-beta.8":
-  version: 2.0.0-beta.8
-  resolution: "@aurelia/plugin-conventions@npm:2.0.0-beta.8"
+"@aurelia/plugin-conventions@npm:2.0.0-beta.12":
+  version: 2.0.0-beta.12
+  resolution: "@aurelia/plugin-conventions@npm:2.0.0-beta.12"
   dependencies:
-    "@aurelia/kernel": "npm:2.0.0-beta.8"
-    "@aurelia/metadata": "npm:2.0.0-beta.8"
-    "@aurelia/platform": "npm:2.0.0-beta.8"
-    "@aurelia/runtime": "npm:2.0.0-beta.8"
-    "@aurelia/runtime-html": "npm:2.0.0-beta.8"
+    "@aurelia/kernel": "npm:2.0.0-beta.12"
+    "@aurelia/metadata": "npm:2.0.0-beta.12"
+    "@aurelia/platform": "npm:2.0.0-beta.12"
+    "@aurelia/runtime": "npm:2.0.0-beta.12"
+    "@aurelia/runtime-html": "npm:2.0.0-beta.12"
     modify-code: "npm:^2.1.3"
     parse5: "npm:^5.1.1"
-    typescript: "npm:5.1.6"
-  checksum: 10/46947951f6279aaec2ff807843720a4ad01b29cc4fd139990e322aab46606bfa227204a98fe18253979c457dcdc4966c808011d255d92bdfce6bd06c1a9c533e
+    typescript: "npm:5.2.2"
+  checksum: 10/1db651c57575feaf24b789d0f7b4d842cc19a2df4a3aac593d4c7d4b5f053d4b8178524abd917c75c612d18498526dd7ebe9dbe07d6741281f420b6a2f466d4c
   languageName: node
   linkType: hard
 
-"@aurelia/runtime-html@npm:2.0.0-beta.8":
-  version: 2.0.0-beta.8
-  resolution: "@aurelia/runtime-html@npm:2.0.0-beta.8"
+"@aurelia/runtime-html@npm:2.0.0-beta.12":
+  version: 2.0.0-beta.12
+  resolution: "@aurelia/runtime-html@npm:2.0.0-beta.12"
   dependencies:
-    "@aurelia/kernel": "npm:2.0.0-beta.8"
-    "@aurelia/metadata": "npm:2.0.0-beta.8"
-    "@aurelia/platform": "npm:2.0.0-beta.8"
-    "@aurelia/platform-browser": "npm:2.0.0-beta.8"
-    "@aurelia/runtime": "npm:2.0.0-beta.8"
-  checksum: 10/901a4b05ff0772d445267b34f66ecea2f544dbf1015874677ca6c4564b2fe891523d311d0413b52d132865a76155fecb1a180367111a95a797d8e2e76671288c
+    "@aurelia/kernel": "npm:2.0.0-beta.12"
+    "@aurelia/metadata": "npm:2.0.0-beta.12"
+    "@aurelia/platform": "npm:2.0.0-beta.12"
+    "@aurelia/platform-browser": "npm:2.0.0-beta.12"
+    "@aurelia/runtime": "npm:2.0.0-beta.12"
+  checksum: 10/e429e1e4ec5c8e53398706a6d29df353971c696710f0856525b800fb9a346fbb5669ba997257a5a83606ad0322d2cce7df121aac006d5fcd6b1ef316e88634d5
   languageName: node
   linkType: hard
 
-"@aurelia/runtime@npm:2.0.0-beta.8":
-  version: 2.0.0-beta.8
-  resolution: "@aurelia/runtime@npm:2.0.0-beta.8"
+"@aurelia/runtime@npm:2.0.0-beta.12":
+  version: 2.0.0-beta.12
+  resolution: "@aurelia/runtime@npm:2.0.0-beta.12"
   dependencies:
-    "@aurelia/kernel": "npm:2.0.0-beta.8"
-    "@aurelia/metadata": "npm:2.0.0-beta.8"
-    "@aurelia/platform": "npm:2.0.0-beta.8"
-  checksum: 10/447bd2824bcfe720e00e72366b46a9dbf8aab2104b80ff8c9e427bfafadf8496fde256a5f3a5ac7ce3efdf204e43122a61c22f7b18ce72105b28827543b0fdeb
+    "@aurelia/kernel": "npm:2.0.0-beta.12"
+    "@aurelia/metadata": "npm:2.0.0-beta.12"
+    "@aurelia/platform": "npm:2.0.0-beta.12"
+  checksum: 10/6a02bf75f686c51af0cf1f4ed71de7136101be80572b45c0edbac95a2ef3bf2e1ccad40fac37b2ee4fa98435a89b40dffe808e9c47aca8ca2c5d1439eec7233b
   languageName: node
   linkType: hard
 
-"@aurelia/webpack-loader@npm:^2.0.0-beta.8, @aurelia/webpack-loader@npm:latest":
-  version: 2.0.0-beta.8
-  resolution: "@aurelia/webpack-loader@npm:2.0.0-beta.8"
+"@aurelia/webpack-loader@npm:2.0.0-beta.12":
+  version: 2.0.0-beta.12
+  resolution: "@aurelia/webpack-loader@npm:2.0.0-beta.12"
   dependencies:
-    "@aurelia/kernel": "npm:2.0.0-beta.8"
-    "@aurelia/metadata": "npm:2.0.0-beta.8"
-    "@aurelia/platform": "npm:2.0.0-beta.8"
-    "@aurelia/plugin-conventions": "npm:2.0.0-beta.8"
-    "@aurelia/runtime": "npm:2.0.0-beta.8"
+    "@aurelia/kernel": "npm:2.0.0-beta.12"
+    "@aurelia/metadata": "npm:2.0.0-beta.12"
+    "@aurelia/platform": "npm:2.0.0-beta.12"
+    "@aurelia/plugin-conventions": "npm:2.0.0-beta.12"
+    "@aurelia/runtime": "npm:2.0.0-beta.12"
     loader-utils: "npm:^2.0.0"
-  checksum: 10/d98ca88475c95a9920cfccb46b86e86399b05efa01209a84430112892fa853b184947da7dd69797059d41b80e765637339ed8b3a1f22b9d714edad1efcb1fe7b
+  checksum: 10/d0a4e1f51eef85d35e7a683728148b330f60cce3a76b3fe2a1c67eeebab91f5267051397f10443baca224a3d6c7c9c2d3a61ac6bcbc92ce17f2d750d0f02cbc1
   languageName: node
   linkType: hard
 
@@ -2034,16 +2034,16 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@mijohen/storybook-aurelia2-webpack5@workspace:workspaces/aurelia2-webpack5"
   dependencies:
-    "@aurelia/webpack-loader": "npm:^2.0.0-beta.8"
+    "@aurelia/webpack-loader": "npm:2.0.0-beta.12"
     "@mijohen/storybook-aurelia2": "workspace:*"
     "@mijohen/storybook-preset-aurelia2-webpack": "workspace:*"
     "@storybook/builder-webpack5": "npm:^7.6.0"
     "@storybook/core-common": "npm:^7.6.0"
-    aurelia: "npm:^2.0.0-beta.8"
+    aurelia: "npm:2.0.0-beta.12"
     typescript: "npm:~4.9.3"
   peerDependencies:
-    "@aurelia/webpack-loader": ^2.0.0-beta.8
-    aurelia: ^2.0.0-beta.8
+    "@aurelia/webpack-loader": 2.0.0-beta.12
+    aurelia: 2.0.0-beta.12
   languageName: unknown
   linkType: soft
 
@@ -2056,10 +2056,10 @@ __metadata:
     "@storybook/preview-api": "npm:^7.6.0"
     "@storybook/types": "npm:^7.6.0"
     "@types/webpack-env": "npm:^1.18.4"
-    aurelia: "npm:^2.0.0-beta.8"
+    aurelia: "npm:2.0.0-beta.12"
     typescript: "npm:~4.9.3"
   peerDependencies:
-    aurelia: ^2.0.0-beta.8
+    aurelia: 2.0.0-beta.12
   languageName: unknown
   linkType: soft
 
@@ -2067,13 +2067,13 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@mijohen/storybook-preset-aurelia2-webpack@workspace:workspaces/preset-aurelia2-webpack"
   dependencies:
-    "@aurelia/webpack-loader": "npm:^2.0.0-beta.8"
+    "@aurelia/webpack-loader": "npm:2.0.0-beta.12"
     "@storybook/core-webpack": "npm:^7.6.0"
-    aurelia: "npm:^2.0.0-beta.8"
+    aurelia: "npm:2.0.0-beta.12"
     typescript: "npm:~4.9.3"
   peerDependencies:
-    "@aurelia/webpack-loader": ^2.0.0-beta.8
-    aurelia: ^2.0.0-beta.8
+    "@aurelia/webpack-loader": 2.0.0-beta.12
+    aurelia: 2.0.0-beta.12
   languageName: unknown
   linkType: soft
 
@@ -4540,7 +4540,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "aurelia-app@workspace:workspaces/aurelia-app"
   dependencies:
-    "@aurelia/webpack-loader": "npm:latest"
+    "@aurelia/webpack-loader": "npm:2.0.0-beta.12"
     "@mijohen/storybook-aurelia2": "workspace:*"
     "@mijohen/storybook-aurelia2-webpack5": "workspace:*"
     "@storybook/addon-essentials": "npm:^7.6"
@@ -4548,7 +4548,7 @@ __metadata:
     "@storybook/addon-links": "npm:^7.6"
     "@storybook/blocks": "npm:^7.6"
     "@types/node": "npm:^18.11.18"
-    aurelia: "npm:latest"
+    aurelia: "npm:2.0.0-beta.12"
     autoprefixer: "npm:^10.4.14"
     css-loader: "npm:^6.8.1"
     html-webpack-plugin: "npm:^5.5.3"
@@ -4568,18 +4568,18 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"aurelia@npm:^2.0.0-beta.8, aurelia@npm:latest":
-  version: 2.0.0-beta.8
-  resolution: "aurelia@npm:2.0.0-beta.8"
+"aurelia@npm:2.0.0-beta.12":
+  version: 2.0.0-beta.12
+  resolution: "aurelia@npm:2.0.0-beta.12"
   dependencies:
-    "@aurelia/fetch-client": "npm:2.0.0-beta.8"
-    "@aurelia/kernel": "npm:2.0.0-beta.8"
-    "@aurelia/metadata": "npm:2.0.0-beta.8"
-    "@aurelia/platform": "npm:2.0.0-beta.8"
-    "@aurelia/platform-browser": "npm:2.0.0-beta.8"
-    "@aurelia/runtime": "npm:2.0.0-beta.8"
-    "@aurelia/runtime-html": "npm:2.0.0-beta.8"
-  checksum: 10/4c26fbb21f9b12bd47abd93cbbc98a0ca97e30ddf47c730c9695a8a1c06af3d7609271d53623ed14febbed1617adb5ce340b4cdeecf0b8736c73041837f49d87
+    "@aurelia/fetch-client": "npm:2.0.0-beta.12"
+    "@aurelia/kernel": "npm:2.0.0-beta.12"
+    "@aurelia/metadata": "npm:2.0.0-beta.12"
+    "@aurelia/platform": "npm:2.0.0-beta.12"
+    "@aurelia/platform-browser": "npm:2.0.0-beta.12"
+    "@aurelia/runtime": "npm:2.0.0-beta.12"
+    "@aurelia/runtime-html": "npm:2.0.0-beta.12"
+  checksum: 10/b6d72d159dfedfd5e77f066b5646f21a44db09975fcd9fbd45ddc9fe35ce859407a6d5f1595a930eb02cbc64ea9a1c95f496da4fcb2ce7eada5fdde27e065d4d
   languageName: node
   linkType: hard
 
@@ -10296,13 +10296,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:5.1.6":
-  version: 5.1.6
-  resolution: "typescript@npm:5.1.6"
+"typescript@npm:5.2.2":
+  version: 5.2.2
+  resolution: "typescript@npm:5.2.2"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 10/f347cde665cf43dc4c1c7d9821c7d9bbec3c3914f4bdd82ee490e9fb9f6d99036ed8666463b6a192dd005eeef333c5087d5931bdd51ec853436ff9a670a7417e
+  checksum: 10/d65e50eb849bd21ff8677e5b9447f9c6e74777e346afd67754934264dcbf4bd59e7d2473f6062d9a015d66bd573311166357e3eb07fea0b52859cf9bb2b58555
   languageName: node
   linkType: hard
 
@@ -10326,13 +10326,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@npm%3A5.1.6#optional!builtin<compat/typescript>":
-  version: 5.1.6
-  resolution: "typescript@patch:typescript@npm%3A5.1.6#optional!builtin<compat/typescript>::version=5.1.6&hash=5da071"
+"typescript@patch:typescript@npm%3A5.2.2#optional!builtin<compat/typescript>":
+  version: 5.2.2
+  resolution: "typescript@patch:typescript@npm%3A5.2.2#optional!builtin<compat/typescript>::version=5.2.2&hash=f3b441"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 10/f5481fa3ba0eee8970f46708d13c05650a865ad093b586fc9573f425c64c57ca97e3308e110bb528deb3ccebe83f6fd7b5a8ac90018038da96326a9ccdf8e77c
+  checksum: 10/f79cc2ba802c94c2b78dbb00d767a10adb67368ae764709737dc277273ec148aa4558033a03ce901406b35fddf4eac46dabc94a1e1d12d2587e2b9cfe5707b4a
   languageName: node
   linkType: hard
 
