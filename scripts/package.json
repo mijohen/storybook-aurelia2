@@ -2,7 +2,7 @@
   "name": "scripts",
   "license": "MIT",
   "private": true,
-  "packageManager": "yarn@4.1.0",
+  "packageManager": "yarn@4.2.2",
   "version": "1.0.0",
   "type": "module",
   "devDependencies": {
